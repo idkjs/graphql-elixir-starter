@@ -13,6 +13,7 @@ defmodule CommunityWeb.Router do
       interface: :simple,
       context: %{pubsub: CommunityWeb.Endpoint}
   end
+
   # Enables LiveDashboard only for development
   #
   # If you want to use the LiveDashboard in production, you should put

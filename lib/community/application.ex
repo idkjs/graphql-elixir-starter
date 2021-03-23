@@ -21,7 +21,7 @@ defmodule Community.Application do
   #   opts = [strategy: :one_for_one, name: Community.Supervisor]
   #   Supervisor.start_link(children, opts)
   # end
-    def start(_type, _args) do
+  def start(_type, _args) do
     children = [
       # Start the Ecto repository
       Community.Repo,
